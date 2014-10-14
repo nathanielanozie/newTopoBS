@@ -8,7 +8,9 @@ Its main assumption is that user has a way of getting the new topology mesh to b
 The code in the main file can be used for a Maya python shelf.
 
 Usage:
+
 1.First run the main.py.  It should give directions.  The result of this is a command to be run in python editor.
+
 2.When you've created the python command to generate new topo meshes,  select one old blendshape at a time 
 then run the python command (should take a couple minutes on low res mesh).
 
@@ -17,5 +19,7 @@ For hi res face meshes its pretty slow.  Running on more than one selected bs at
 
 
 Cheers,
+
 Nathaniel Anozie
+
 nathananozie dot blogspot dot com
