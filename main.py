@@ -1,1 +1,2 @@
+#Author: Nathaniel Anozie (nathananozie dot blogspot dot com)
 #make bs, select new topology, then posed, then the default meshfrom na_newTopoBS import na_newTopoBSimport maya.cmds as cmdssel = []sel = cmds.ls(selection = True)if len(sel) == 3:	print "\nSELECT BS ONLY --- run in PYTHON editor:\n"	print "na_newTopoBS(newTopo = '%s', oldDefaultNewTopo = '%s', oldDefault = '%s')" %(sel[0], sel[1],sel[2])	cmds.select(clear=True)else:	print "select new topology, then posed, then the default mesh!"
