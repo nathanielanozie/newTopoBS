@@ -27,7 +27,7 @@ global proc string[] facerigMakeSelSectionIntoFullBlendshape(string $full, strin
         select -r $full;//this is getting moved by something else
         select -add $section;
         //CreateWrap;
-        doWrapArgList "3" { "1","0","4", "2" };//wrap deformer last arg 2 faces, 1 would be points, third arg max distance
+        doWrapArgList "3" { "1","0.2","4", "1" };
         string $fullShapeArray[] = {};
         $fullShapeArray = `pickWalk -direction down $full`;
         select -cl;
